@@ -54,3 +54,30 @@ footer{
 
     }
 }
+
+@media screen and (max-width:550px) {
+    footer{
+        .container{
+            .footers__container{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            
+            .form{align-items: center;
+                form{
+                    gap: 1rem;
+                    padding: 0rem;
+                    
+                    input,textarea{
+                        
+                        width: 80%;     
+                        padding: 0.4rem;
+                    }
+                }
+                
+            }
+        }
+        }
+        
+    }
