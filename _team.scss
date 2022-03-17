@@ -113,7 +113,6 @@
                     padding: 1rem ;
                     transition: all 0.5s 400ms;
                    }
-
                 }
             }
         }
@@ -126,18 +125,9 @@
                 display: grid;
                 grid-template-columns: 1fr;
             }
-
-
-
-
-
-
         }
-    }
-
-    
+    }    
 }
-
 
 
 @media screen and (max-width:550px) {
@@ -146,14 +136,11 @@
 
             .our__team{
                 .team{
-            
-                    .sociale__icons{
-                       
+                    .sociale__icons{  
                     gap: 0.4rem;
                      
                     }
                 }
-
         }
     }
     
